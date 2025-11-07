@@ -129,11 +129,8 @@ export default function LandingPage() {
               innovation like never before.
             </p>
             <div className="flex flex-col sm:flex-row gap-4">
-              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg">
+              <Button className="bg-blue-600 hover:bg-blue-700 text-white px-8 py-6 text-lg rounded-lg" onClick={() => (window.location.href = "/signup")}>
                 Get Started
-              </Button>
-              <Button variant="outline" className="px-8 py-6 text-lg rounded-lg">
-                Watch Demo
               </Button>
             </div>
           </motion.div>
